@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-    <meta charset=UTF-8">
+    <meta charset="UTF-8">
     <title>Test</title>
 
 </head>
@@ -31,6 +31,12 @@ countB++;
 
 <p><% out.println(Math.random()); %></p>
 <p><%=Math.random() %></p>
+
+<p>お名前を入力してください。</p>
+<form method="post" action="greeting-out.jsp">
+<input type="text" name="user">
+<input type="submit" value="確定">
+</form>
 
 </body>
 </html>
